@@ -1,6 +1,6 @@
 <?php 
 if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
-   header("Location: /pages/libros.php");
+   header("Location: /pages/books.php");
    exit();
 }
 $user = $pwd = "";
@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
          $_SESSION['name'] = $res["NAME"];
          $_SESSION['id'] = $res["ID"];
          $conn->close();
-         header("Location: /pages/libros.php");
+         header("Location: /pages/books.php");
          exit();
       } else {
          $errors[] = "Usuario o contraseña incorrectos.";
