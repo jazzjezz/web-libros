@@ -61,7 +61,7 @@ function test_input($data){
     <label for="pwd" class="mg-1">Contraseña</label>
     <input type="password" id="pwd" name="pwd" class="border-5 mg-2 input" minlength=“6>
     <spam style="font-size:.8em">¿No recuerdas tu contraseña? <a href="#">aquí puedes recuperarla</a></spam>
-    <spam style="font-size:.8em"><a href="#">¡Registrate!</a></spam>
+    <spam style="font-size:.8em"><a href="/pages/signup.php">¡Registrate!</a></spam>
     <spam style="font-size:.8em; color:red;"><?php echo implode("<br>", $errors) ?></spam>
     <input type="submit" class="mg-3 primaryButton border-5 wd-30" value="Iniciar">
  </form>

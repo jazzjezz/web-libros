@@ -14,7 +14,7 @@
             echo '<div class="flex-container menuItem row"><a href="/assets/php/logout.php">Cerrar Sesión</a></div>';
         } else {
             echo '<div class="flex-container menuItem row"><a href="/index.php">Iniciar Sesión</a></div>';
-            echo '<div class="flex-container menuItem row"><a href="#">Registrarse</a></div>';
+            echo '<div class="flex-container menuItem row"><a href="/pages/signup.php">Registrarse</a></div>';
         }
     ?>
     <div class="flex-container menuItem row">
