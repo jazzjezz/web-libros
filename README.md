@@ -2,6 +2,10 @@
 
 Proyecto escolar. Página web con autenticación. Está conectada mediante dos contenedores Docker; un servidor php 8.1 y un servidor de base de datos mariadb.
 
+![Login](./samples/login.png)
+![Signup](./samples/signup.png)
+![Books](./samples/books.png)
+
 ## Table of contents
 * [General-info](#general-info)
 * [Technologies](#technologies)
