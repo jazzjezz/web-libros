@@ -29,6 +29,8 @@ docker build \
 
 docker run --detach --network $NETWORK --name $MARIADB_CONTAINER $MARIADB_IMAGE
 
-docker run -d -p 80:80 --network $NETWORK --name $WEBSERVER_CONTAINER -v "$PWD/src/":/var/www/html $PHPAPACHE_IMAGE
+#If needed you can setup a volume with
+# -v "PATH":/var/www/html
+docker run -d -p 80:80 --network $NETWORK --name $WEBSERVER_CONTAINER $PHPAPACHE_IMAGE
 
 

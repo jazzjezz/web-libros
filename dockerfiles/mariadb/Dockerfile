@@ -1,4 +1,4 @@
-#imagen para base de datos no relacional con MariaDB
+#imagen para base de datos relacional con MariaDB
 FROM mariadb:latest
 MAINTAINER jazzjezz jazzjezz@disroot.org
 
